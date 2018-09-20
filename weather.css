@@ -1,50 +1,74 @@
 html {
-    
     font-family: 'Dosis', sans-serif;
     line-height: 1.6;
     color: rgb(0, 0, 0);
     background: rgb(218, 218, 218);
-  }
+}
 
+  
+header{
+      text-align: center  
+}
 
 .flex-container {
     display: flex;
     flex-wrap: wrap;
-    
-    flex-direction: row 
-  }
-  .flex-container > div {
-    background-color: #f1f1f1;
+    flex-direction: row;
+    justify-content: center; 
+}
+.city {    
+    background: white;
+    box-shadow: 4px 8px 50px rgba(0, 0, 0, .3);
+    transition: all .2s linear;
     text-align: center;
-    padding: 1vw;
     margin: 1vw;
-    
+    border-top-right-radius: 1.5rem;
+    border-top-left-radius: 1.5rem;
+    margin: 1.5rem;
+   
   }
-  .flex-container > div > h1 {
+  
+.city:hover {
+    box-shadow: 2px 8px 45px rgba(0, 0, 0, .15);
+    transform: translate3D(0, -2px, 0);  
+}
+
+  
+.flex-container > div > h1 {
     text-align: center;
     padding: 1.5rem 2.5rem;
-    background-image: linear-gradient(120deg, #fbc2eb 0%, #a6c1ee 100%);
+    background-image: linear-gradient(200deg,  #e6e6ff 0%, #4d4dff 100%);
     margin: 0 0 2rem 0;
     font-size: 1.5rem;
     color: white;
-    
-  }
-
-  table, th, td {
-    border: 1px solid black;
+    border-top-right-radius: 1.5rem;
+    border-top-left-radius: 1.5rem;
+}
+  
+table {
+    border-collapse: collapse;
     text-align: left;
+    padding: 1rem;
+     
+    width: 18vw;
 }
 
-.city {
-    margin: 1rem;
-    background: white;
-    box-shadow: 4px 8px 50px rgba(0, 0, 0, .3);
-    border-radius: 12px;
-    
-    transition: all .2s linear;
-  }
-  
-  .city:hover {
-    box-shadow: 2px 8px 45px rgba(0, 0, 0, .15);
-    transform: translate3D(0, -2px, 0);
-  }
+td, th{
+    border: 1px solid #ddd;
+    padding: 1rem;    
+}
+
+tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+tr:hover {
+    background-color: #ddd;
+}
+
+
+footer{
+   width:100%;
+   text-align: center;
+   font-size: 0.75rem;
+}
+

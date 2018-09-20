@@ -2,25 +2,20 @@
 <html>
 
 <head>
-  
-
-  
-
   <title>Enonic Weather</title>
 
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="weather.css" rel="stylesheet">
   <script src="weather.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
-
 
 </head>
 
 <body>
     
-    <header style="background-color: blueviolet">
-        <h1>Enonic weather</h1>
-        <h3>Less important heading here</h3>
-        <p>Some additional information here</p>
+    <header>
+        <h1>Enonic Weather</h1>
+        <h3>The weather at the Enonic offices </h3>        
     </header>
 
 
@@ -28,12 +23,8 @@
 <div class="flex-container">
 
     <div class=city>
-
         <h1 id="name"></h1>
-        
-       
         <h3 id="temp"></h3>
-
         <p id="description"></p>
         <table>
             <tr>
@@ -52,20 +43,11 @@
                 <td>Sunset</td>
                 <td id="sunset"></td>
             </tr>
-            
-
         </table>
-
-
-        
-
     </div>
 
     <div class=city>
-
         <h1 id="name"></h1>
-        
-       
         <h3 id="temp"></h3>
         <p id="description"></p>
         <table>
@@ -85,20 +67,11 @@
                 <td>Sunset</td>
                 <td id="sunset"></td>
             </tr>
-            
-
         </table>
-
-       
-
     </div>
 
     <div class=city>
-
         <h1 id="name"></h1>
-        
-                
-       
         <h3 id="temp"></h3>
         <p id="description"></p>
         <table>
@@ -118,26 +91,16 @@
                 <td>Sunset</td>
                 <td id="sunset"></td>
             </tr>
-            
-
         </table>    
-       
-
     </div>
-
 </div>
 
-
-
-
-
-
-
-<footer style="background-color: blueviolet">
-        <p>Footy footer</p>
-        <p id="update"></p>
-      </footer>
+<footer >
+    <p id="update"></p>
+    <p>Weather data collected from <a href="https://openweathermap.org/api">OpenWeatherMap</a></p></p>
       
+</footer>
+
 </body>
 
 </html>
