@@ -1,0 +1,36 @@
+html {
+    
+    font-family: 'Dosis', sans-serif;
+    line-height: 1.6;
+    color: rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
+  }
+
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: aquamarine;
+    flex-direction: row 
+  }
+  .flex-container > div {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 1vw;
+    margin: 1vw;
+    
+  }
+  .flex-container > div > h1 {
+    text-align: center;
+    padding: 1.5rem 2.5rem;
+    background-image: linear-gradient(120deg, #fbc2eb 0%, #a6c1ee 100%);
+    margin: 0 0 2rem 0;
+    font-size: 1.5rem;
+    color: white;
+    
+  }
+
+  table, th, td {
+    border: 1px solid black;
+    text-align: left;
+}
