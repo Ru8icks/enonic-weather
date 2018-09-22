@@ -1,11 +1,13 @@
-<!DOCTYPE html>
+<!DOCTYPE html >
 <html>
 
 <head>
   <title>Enonic Weather</title>
 
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="shortcut icon" type="image/png" href="/assets/favicon.ico"/>
+  
+  <link rel="shortcut icon" type="image/png" href="assets/favicon.ico"/>
   <link href="weather.css" rel="stylesheet">
   <script src="weather.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
@@ -23,82 +25,83 @@
 
 <div class="flex-container">
 
-    <div class=city>
-        <h1 id="name"></h1>
-        <h3 id="temp"></h3>
-        <p id="description"></p>
+    <div class="city">
+        <h2 class="name"></h2>
+        <h3 class="temp"></h3>
+        <p class="description"></p>
         <table>
             <tr>
                 <td>Wind</td>
-                <td id="wind"></td>
+                <td class="wind"></td>
             </tr>
              <tr>
                 <td>Humididty</td>
-                <td id="humidity"></td>
+                <td class="humidity"></td>
             </tr>
             <tr>
                 <td>Sunrise</td>
-                <td id="sunrise"></td>
+                <td class="sunrise"></td>
             </tr>
             <tr>
                 <td>Sunset</td>
-                <td id="sunset"></td>
+                <td class="sunset"></td>
             </tr>
         </table>
     </div>
 
-    <div class=city>
-        <h1 id="name"></h1>
-        <h3 id="temp"></h3>
-        <p id="description"></p>
+    <div class="city">
+        <h2 class="name"></h2>
+        <h3 class="temp"></h3>
+        <p class="description"></p>
         <table>
             <tr>
                 <td>Wind</td>
-                <td id="wind"></td>
+                <td class="wind"></td>
             </tr>
              <tr>
                 <td>Humididty</td>
-                <td id="humidity"></td>
+                <td class="humidity"></td>
             </tr>
             <tr>
                 <td>Sunrise</td>
-                <td id="sunrise"></td>
+                <td class="sunrise"></td>
             </tr>
             <tr>
                 <td>Sunset</td>
-                <td id="sunset"></td>
+                <td class="sunset"></td>
             </tr>
         </table>
     </div>
 
-    <div class=city>
-        <h1 id="name"></h1>
-        <h3 id="temp"></h3>
-        <p id="description"></p>
+    <div class="city">
+        
+        <h2 class="name"></h2>
+        <h3 class="temp"></h3>
+        <p class="description"></p>
         <table>
             <tr>
                 <td>Wind</td>
-                <td id="wind"></td>
+                <td class="wind"></td>
             </tr>
              <tr>
                 <td>Humididty</td>
-                <td id="humidity"></td>
+                <td class="humidity"></td>
             </tr>
             <tr>
                 <td>Sunrise</td>
-                <td id="sunrise"></td>
+                <td class="sunrise"></td>
             </tr>
             <tr>
                 <td>Sunset</td>
-                <td id="sunset"></td>
+                <td class="sunset"></td>
             </tr>
         </table>    
     </div>
 </div>
 
 <footer >
-    <p id="update"></p>
-    <p>Weather data collected from <a href="https://openweathermap.org/api">OpenWeatherMap</a></p></p>
+    <p class="update"></p>
+    <p>Weather data collected from <a href="https://openweathermap.org/api">OpenWeatherMap</a></p>
       
 </footer>
 
